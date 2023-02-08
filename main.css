@@ -27,7 +27,7 @@ h1 {
 	margin-bottom: 20px;
 }
 .form-box {
-	margin-bottom: 20px;
+	margin-bottom: 5px;
 }
 label {
 	display: inline-block;
@@ -40,16 +40,19 @@ input {
 	border: 1px solid #c8c9c6;
 	border-radius: 5px;
 }
-.error {
+.error-text {
 	visibility: hidden;
-	padding: 10px;
-	font-size: 14px;
-	color: #a63446;
 }
-
+.error {
+	visibility: visible;
+	padding: 10px 5px;
+	font-size: 16px;
+	color: #d51a36;
+}
 .buttons {
 	display: flex;
 	justify-content: flex-end;
+    margin-top: 10px;
 }
 
 .clear {
@@ -98,6 +101,9 @@ input {
 	border-radius: 8px;
 	border: 2px solid black;
 	transition: top 0.5s;
+}
+.show-popup {
+	top: 50%;
 }
 
 .popup,
